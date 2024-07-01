@@ -9,37 +9,30 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    font-size: 1em;
+    font-size: .95em;
 }
 
 
 body {
     background-color: #fffcef;
-}
-
-input {
-    all: unset;
-    
-    display: inline-block;
-    box-sizing: border-box;
+    height: 90vh;
+    width: 100vw;
 }
 
 #buttonContainer {
     position: absolute;
     top: 50%;
     left: 50%; 
-    width: 400px;
+    width: 300px;
     height: 400px;
     margin-top: -200px;
-    margin-left: -200px;
+    margin-left: -150px;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .style {
 
@@ -49,9 +42,9 @@ input {
     border-style: none;
     background-color: transparent;
 
-    width: 60%;
+    width: 90%;
 
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
 
     background-color: rgb(0, 0, 0, .07);
@@ -60,15 +53,24 @@ input {
     transition: .2s;
 }
 
+#serverAddress {
+    display: inline-block;
+    box-sizing: border-box;
+
+    outline-width: 1px;
+    outline-color: #00b1b6;
+
+    margin-bottom: 15px;
+}
+
 button:hover {
     cursor: pointer;
     font-weight: 700;
 }
 
 img {
-    margin: 20px;
-}
-
-input.has-suggestions {
-    background-color: transparent;
+    position: absolute;
+    margin-top: 60px;
+    left: 50%;
+    margin-left: -40px;
 }
