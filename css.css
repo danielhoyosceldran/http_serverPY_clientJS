@@ -9,27 +9,25 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    font-size: .95em;
+    font-size: 1em;
 }
 
 
 body {
-    background-color: #101010;
+    background-color: #fffcef;
 }
 
 input {
     all: unset;
-
     
-    /* Propiedades que deseas restablecer explícitamente */
     display: inline-block;
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    box-sizing: border-box;
 }
 
 #buttonContainer {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     width: 400px;
     height: 400px;
     margin-top: -200px;
@@ -45,7 +43,7 @@ input {
 
 .style {
 
-    color: #fff;
+    color: #515151;
     font-weight: 200;
     
     border-style: none;
@@ -56,7 +54,7 @@ input {
     margin: 10px;
     padding: 10px;
 
-    background-color: rgb(255, 255, 255, .07);
+    background-color: rgb(0, 0, 0, .07);
     border-radius: 10px;
 
     transition: .2s;
@@ -68,5 +66,9 @@ button:hover {
 }
 
 img {
-    margin: 10px;
+    margin: 20px;
+}
+
+input.has-suggestions {
+    background-color: transparent;
 }
