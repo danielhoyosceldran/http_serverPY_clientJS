@@ -9,12 +9,12 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    font-size: 1.1em;
+    font-size: .95em;
 }
 
 
 body {
-    background-color: #000000;
+    background-color: #101010;
 }
 
 input {
@@ -56,7 +56,7 @@ input {
     margin: 10px;
     padding: 10px;
 
-    background-color: rgb(255, 255, 255, .05);
+    background-color: rgb(255, 255, 255, .07);
     border-radius: 10px;
 
     transition: .2s;
@@ -68,5 +68,5 @@ button:hover {
 }
 
 img {
-    margin: 10px 20px;
+    margin: 10px;
 }
